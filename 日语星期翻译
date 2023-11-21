@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+
+	int m = 0;
+	scanf_s("%d", &m);
+	switch(m)
+	{
+	case 1:printf("月曜日");
+		break;
+	case 2:printf("火曜日");
+		break;
+	case 3:printf("水曜日");
+		break;
+	case 4:printf("木曜日");
+		break;
+	case 5:printf("金曜日");
+		break;
+	case 6:printf("土曜日");
+		break;
+	case 7:printf("日曜日");
+		break;
+	}
+
+	return 0;
+}
