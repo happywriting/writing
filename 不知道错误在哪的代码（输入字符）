@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int ch = 0;
+	int ret = 0;
+	unsigned int password[20] = { 0 };
+
+	printf("请输入密码：");
+	scanf_s("%s", &password,sizeof(password));
+	
+	while((ch=getchar())!= '\n')
+	{
+		;
+	}
+	ret = getchar();
+	if (ret == 'Y')
+		printf("确认成功");
+	else
+	    printf("确认失败");
+
+	return 0;
+}
